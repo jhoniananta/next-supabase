@@ -27,6 +27,7 @@ const AdminPage = () => {
       else setMenus(data);
     };
     fetchMenus();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [supabase]);
 
   return (
